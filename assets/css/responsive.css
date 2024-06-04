@@ -1,0 +1,437 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .does-content {
+        min-height: 456px;
+    }
+    .navtab {
+        font-size: 20px;
+    }
+    .hero-content h1 {
+        font-size: 65px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    
+    .hero-content h1 {
+        font-size: 54px;
+    }
+    .works-number h1::before {
+        width: 241px;
+    }
+    .works-content p {
+        font-size: 16px;
+    }
+    .works-content h3 {
+        font-size: 25px;
+    }
+    .does-content .icon {
+        margin-bottom: 70px;
+    }
+    .does-content {
+        min-height: 508px;
+    }
+    .team-area {
+        padding: 50px 0;
+    }
+    .tabs-content {
+        margin-left: 0;
+    }
+    .tabs-area {
+        padding: 35px 80px;
+    }
+    .navtab {
+        font-size: 20px;
+        margin-left: 51px;
+    }
+    .explore-content p {
+        font-size: 17px;
+    }
+    .explore-area .section-title h1 {
+        width: 60%;
+    }
+    .works-area {
+        padding: 50px 0;
+    }
+    .noibu-img img {
+        width: 100%;
+    }
+    .noibu-item p {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .author p {
+        font-size: 14px;
+    }
+    .data-logo img {
+        width: 40%;
+        margin-bottom: 60px;
+    }
+    .data-security-area {
+        padding-bottom: 0px;
+        padding-top: 50px;
+    }
+    .footer-text h1 {
+        font-size: 40px;
+    }
+    .does-content.content-change {
+        margin-bottom: 50px;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-content h1 {
+        font-size: 54px;
+    }
+    .works-number h1 {
+        line-height: 1.9;
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+    }
+    .works-content h3 {
+        font-size: 21px;
+    }
+    .works-content p {
+        font-size: 15px;
+        width: auto;
+    }
+    #div_2 p {
+        font-size: 42px;
+        width: 100%;
+    }
+    .works-number h1::before {
+        width: 188px;
+        height: 8px;
+        top: 44%;
+        left: 50.5px;
+    }
+    .works-area.text-center {
+        padding-bottom: 20px;
+        padding-top: 50px;
+    }
+    .does-content {
+        margin-bottom: 20px;
+    }
+    .does-area {
+        padding-bottom: 50px;
+    }
+    .explore-area {
+        padding-top: 20px;
+        padding-bottom: 50px;
+        overflow: hidden;
+    }
+    .explore-area .section-title h1 {
+        width: 100%;
+    }
+    .explore-content p {
+        font-size: 17px;
+    }
+    .team-area {
+        padding-top: 60px;
+        padding-bottom: 90px;
+    }
+    
+    .team-area  .section-title h1 {
+        font-size: 35px;
+    }
+    .tabs-area {
+        padding: 30px 40px;
+    }
+    .navtab {
+        font-size: 16px;
+        margin-left: 33px;
+    }
+    .navs-content {
+        padding-top: 50px;
+    }
+    .tabs-content {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .noibu-item p {
+        line-height: 36px;
+        font-size: 21px;
+    }
+    .noibu-item p {
+        line-height: 36px;
+        font-size: 21px;
+    }
+    .noibu-item {
+        min-height: 577px;
+    }
+    .noibu-img img {
+        display: inline-block;
+    }
+    .noibu-area {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    .noibu-item {
+        min-height: 614px;
+        margin-right: 0;
+        text-align: center;
+    }
+    .noibu-img {
+        margin-right: 0;
+    }
+    .noibu-img img {
+        display: inline-block !important;
+    }
+    .noibu-item .owl-item.active {
+        margin-right: 0 !important;
+    }
+    .data-security-area {
+        padding-bottom: 0;
+        padding-top: 90px;
+    }
+    .data-logo {
+        margin-bottom: 60px;
+    }
+    .footer-text h1 {
+        font-size: 37px;
+    }
+    .footer-content h1 {
+        font-size: 49px;
+        line-height: 59px;
+        width: auto;
+    }
+    .footer-content {
+        padding-top: 0;
+    }
+    .footer-area {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    .icon img {
+        width: 18%;
+    }
+    
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .explore-area {
+        padding-bottom: 50px;
+    }
+    #div_2 p {
+        font-size: 32px;
+        line-height: 47px;
+        width: 100%;
+    }
+    .hero-area {
+        padding-top: 80px;
+    }
+    .hero-content.text-center img {
+        width: 100%;
+    }
+    .hero-content h1 {
+        font-size: 39px;
+        line-height: 59px;
+    }
+    .works-main {
+        display: flex;
+        margin-bottom: 50px;
+    }
+    .works-number h1::before {
+        width: 8px;
+        height: 112px;
+        top: 101%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .works-number {
+        margin-right: 50px;
+    }
+    .works-content p {
+        font-size: 16px;
+        line-height: 26px;
+        width: auto;
+    }
+    .works-content h3 {
+        font-size: 22px;
+    }
+    .works-content {
+        text-align: left;
+    }
+    .works-area.text-center {
+        padding-bottom: 0;
+        padding-top: 50px;
+    }
+    
+    .does-area {
+        padding-bottom: 50px;
+    }
+    .does-content {
+        margin-bottom: 30px;
+    }
+    .does-content.content-change h3 {
+        font-size: 22px;
+    }
+    .does-content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .explore-area .section-title h1 {
+        width: auto;
+        font-size: 30px;
+    }
+    .explore-area .owl-stage {
+        margin-left: 0;
+    }
+    .explore-area .owl-theme .owl-nav {
+        background: none;
+        position: absolute;
+        top: 117%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    .explore-area {
+        padding-top: 30px;
+    }
+    .navs-content{
+        padding-top: 30px;
+    }
+    .tabs-img img {
+        margin-bottom: 30px;
+    }
+    .navtab {
+        font-size: 16px;
+        margin-left: 16px;
+        transition: .3s;
+    }
+    .team-area {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    .navtab::after {
+        position: absolute;
+        bottom: -10px;
+        right: -3px;
+        width: 3px;
+        background: #2500F5;
+        content: "";
+        height: 100%;
+    }
+    .team-area .section-title {
+        margin-bottom: 0;
+    }
+    .navtab:last-child::after {
+        display: none;
+    }
+    .tabs-area {
+        padding: 0;
+    }
+    .tabs-content {
+        margin-left: 15px;
+    }
+    .tabs-content h2 {
+        width: auto;
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .tabs-content p {
+        margin-bottom: 22px;
+        width: auto;
+        font-size: 16px;
+    }
+
+    .noibu-item p {
+        line-height: 36px;
+        font-size: 21px;
+    }
+    .noibu-item p {
+        line-height: 36px;
+        font-size: 21px;
+    }
+    .noibu-item {
+        min-height: 577px;
+    }
+    .noibu-img img {
+        display: inline-block;
+    }
+    .noibu-area {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    .noibu-item {
+        min-height: 738px;
+        margin-right: 0;
+        text-align: center;
+    }
+    .noibu-img {
+        margin-right: 0;
+    }
+    .noibu-img img {
+        display: inline-block !important;
+    }
+    .noibu-item .owl-item.active {
+        margin-right: 0 !important;
+    }
+    .data-security-area {
+        padding-top: 70px;
+        padding-bottom: 0;
+    }
+    .data-security-area .section-title h1 {
+        width: auto;
+        margin: 0 auto;
+        font-size: 36px;
+    }
+    .footer-area {
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    .footer-text h1 {
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .footer-content h1 {
+        color: #fff;
+        width: auto;
+        text-align: center;
+        margin: 30px auto;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .footer-img {
+        float: none;
+    }
+    .footer-content {
+        padding-top: 0;
+    }
+    .owl-nav {
+        display: none;
+    }
+    .section-title h1 {
+        font-size: 36px;
+    }
+    .noibu-item.man {
+        padding: 35px;
+    }
+}
+ 
+@media (min-width: 320px) and (max-width: 576px) {
+    #div_2 p {
+        font-size: 27px;
+        line-height: 47px;
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 145px;
+    }
+    .hero-content h1 {
+        font-size: 39px;
+        line-height: 59px;
+        width: 300px;
+        margin: 30px auto;
+    }
+    .hero-content button {
+        margin-bottom: 53px;
+    }
+}
